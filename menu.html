@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>焼肉 牛工大 - メニュー</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #a52a2a;
+            color: white;
+            padding: 10px 20px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #a52a2a;
+        }
+        .menu-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+            background-color: #f9f9f9;
+        }
+        .menu-item img {
+            border-radius: 10px;
+            max-width: 50%; /* 幅を半分にする */
+            height: auto; /* アスペクト比を維持 */
+            margin-bottom: 10px;
+        }
+        aside {
+            text-align: center;
+            margin: 20px 0;
+        }
+        aside img {
+            max-width: 50%; /* 店舗画像も半分に調整 */
+            height: auto;
+        }
+        footer {
+            background-color: #a52a2a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <!-- ナビゲーションメニュー -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">ホーム</a></li>
+                <li><a href="index.html">メニュー</a></li>
+                <li><a href="about.html">当店について</a></li>
+				<li><a href="contact.html">お問い合わせ・アクセス</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main>
+        <h1>メニュー</h1>
+
+        <!-- 牛肉セクション -->
+        <section>
+            <h2>牛肉</h2>
+            <div class="menu-item">
+                <img src="koudai_karubi.jpg" alt="工大カルビ">
+                <h3>工大カルビ</h3>
+                <p>骨と骨の間の旨味の詰まった部位を丁寧にカット</p>
+            </div>
+            <div class="menu-item">
+                <img src="karubi.jpg" alt="カルビ">
+                <h3>カルビ</h3>
+                <p>牛肉のうまみ、甘味と香りが楽しめます</p>
+            </div>
+            <div class="menu-item">
+                <img src="harami.jpg" alt="ハラミ">
+                <h3>ハラミ</h3>
+                <p>国民のアイドル！お店一押し</p>
+            </div>
+        </section>
+
+        <!-- 豚肉セクション -->
+        <section>
+            <h2>豚肉</h2>
+            <div class="menu-item">
+                <img src="buta_tan.jpg" alt="トンたん塩">
+                <h3>トンたん塩</h3>
+                <p>コリコリ食感を楽しむ。牛タンでなくても満足できます。</p>
+            </div>
+            <div class="menu-item">
+                <img src="buta_horumon.jpg" alt="豚ホルモン">
+                <h3>やみつき豚ホルモン</h3>
+                <p>この食感クセになる</p>
+            </div>
+        </section>
+
+        <!-- 鶏肉セクション -->
+        <section>
+            <h2>鶏肉</h2>
+            <div class="menu-item">
+                <img src="tori_yagen.jpg" alt="ハラミ付きヤゲン">
+                <h3>ハラミ付きヤゲン</h3>
+                <p>ジューシーなハラミがついた、コリコリの軟骨</p>
+            </div>
+            <div class="menu-item">
+                <img src="tori_momo.jpg" alt="とりもも">
+                <h3>とりもも</h3>
+                <p>お子様にも人気。やわらかくてジューシー</p>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- 店舗画像 -->
+    <aside>
+        <img src="mise1.jpg" alt="炭火焼の様子">
+    </aside>
+
+    <!-- フッター -->
+    <footer>
+        <p>&copy; 2024 焼肉 牛工大. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
